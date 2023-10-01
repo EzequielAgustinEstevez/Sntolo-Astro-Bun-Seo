@@ -5,17 +5,17 @@ import type { ManifestOptions } from "vite-plugin-pwa"
  * Defines the default SEO configuration for the website.
  */
 export const seoConfig = {
-	baseURL: "https://example.com", // Change this to your production URL.
+	baseURL: "https://sntolo.com", // Change this to your production URL.
 	description:
-		"Astro PWA Starter is an opionated Astro starter for building robust static websites.", // Change this to be your website's description.
+		"Sitio oficial de la banda Sntolo", // Change this to be your website's description.
 	type: "website",
 	image: {
-		url: "https://picsum.photos/1200/630", // Change this to your website's thumbnail.
-		alt: "OpenGraph thumbnail description.", // Change this to your website's thumbnail description.
+		url: "https://sntolo.com/wp-content/uploads/2023/08/sntoloLogo.webp", // Change this to your website's thumbnail.
+		alt: "Sntolo Sitio Oficial", // Change this to your website's thumbnail description.
 		width: 1200,
 		height: 630
 	},
-	siteName: "Astro PWA Starter", // Change this to your website's name,
+	siteName: "Sntolo", // Change this to your website's name,
 	twitter: {
 		card: "summary_large_image"
 	}
@@ -25,12 +25,12 @@ export const seoConfig = {
  * Defines the configuration for PWA webmanifest.
  */
 export const manifest: Partial<ManifestOptions> = {
-	name: "Astro PWA Starter", // Change this to your website's name.
-	short_name: "Astro PWA Starter", // Change this to your website's short name.
+	name: "Sntolo", // Change this to your website's name.
+	short_name: "Sntolo", // Change this to your website's short name.
 	description:
-		"Astro PWA Starter is an opionated Astro starter for building robust static websites.", // Change this to your websites description.
-	theme_color: "#30E130", // Change this to your primary color.
-	background_color: "#ffffff", // Change this to your background color.
+		"Sitio oficial de la banda Sntolo", // Change this to your websites description.
+	theme_color: "#bc890e", // Change this to your primary color.
+	background_color: "#000000", // Change this to your background color.
 	display: "minimal-ui",
 	icons: [
 		{
